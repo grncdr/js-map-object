@@ -1,0 +1,21 @@
+{
+  "name": "js-map-object",
+  "version": "0.0.0",
+  "description": "map over the key-value pairs of an object",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~1.0.4"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/js-map-object.git"
+  },
+  "homepage": "https://github.com/substack/js-map-object",
+  "keywords": ["map","object","key-value"],
+  "author": "Stephen Sugden <me@stephensugden.com>",
+  "license": "MIT"
+}
