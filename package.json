@@ -1,6 +1,6 @@
 {
   "name": "map-object",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "map over the key-value pairs of an object",
   "main": "index.js",
   "dependencies": {
