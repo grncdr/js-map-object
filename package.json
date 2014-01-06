@@ -3,9 +3,11 @@
   "version": "0.0.0",
   "description": "map over the key-value pairs of an object",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "object-keys": "~0.4.0"
+  },
   "devDependencies": {
-    "tape": "~1.0.4"
+    "tape": "~2.3.2"
   },
   "scripts": {
     "test": "node test.js"
@@ -15,7 +17,11 @@
     "url": "git://github.com/grncdr/js-map-object.git"
   },
   "homepage": "https://github.com/grncdr/js-map-object",
-  "keywords": ["map","object","key-value"],
+  "keywords": [
+    "map",
+    "object",
+    "key-value"
+  ],
   "author": "Stephen Sugden <me@stephensugden.com>",
   "license": "MIT"
 }
