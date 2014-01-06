@@ -8,10 +8,11 @@
   },
   "devDependencies": {
     "tape": "~2.3.2",
-    "markdown-code-blocks": "0.0.1"
+    "markdown-code-blocks": "0.0.1",
+    "brfs": "0.0.8"
   },
   "scripts": {
-    "test": "markdown-code-blocks -t javascript < README.md | node"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,26 @@
     "key-value"
   ],
   "author": "Stephen Sugden <me@stephensugden.com>",
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/9..latest",
+      "firefox/17..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  },
   "license": "MIT"
 }

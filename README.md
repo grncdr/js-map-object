@@ -1,5 +1,7 @@
 # map-object
 
+[![browser support](https://ci.testling.com/grncdr/js-map-object.png)](https://ci.testling.com/grncdr/js-map-object)
+
 Map over the key-value pairs of an object.
 
 ## Synopsis
